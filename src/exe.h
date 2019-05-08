@@ -1,3 +1,6 @@
+//English patch for BATTLE TRAVERSE
+//Written by YAM, May 2019
+
 #ifndef EPATCH_H
 #define EPATCH_H
 

@@ -1,5 +1,5 @@
 //English patch for BATTLE TRAVERSE
-//Written by YAM, July 2018
+//Written by YAM, May 2019
 
 #ifndef DXA_H
 #define DXA_H
