@@ -1,5 +1,5 @@
 //English patch for BATTLE TRAVERSE
-//Written by YAM, July 2018
+//Written by YAM, August 2020
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -24,7 +24,7 @@ size_t fwrite_enc(const void *ptr, size_t size, size_t nmemb, FILE *stream) {
 	static unsigned char *buf = NULL;
 	static unsigned int buf_size = 0;
 	if (!stream) {
-		if (!buf)
+		if (buf)
 			free(buf);
 		buf = NULL;
 		buf_size = 0;
